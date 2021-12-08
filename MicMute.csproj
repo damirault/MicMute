@@ -48,8 +48,6 @@
   <ItemGroup>
     <PackageReference Include="AudioSwitcher.AudioApi" Version="4.0.0-alpha5" />
     <PackageReference Include="AudioSwitcher.AudioApi.CoreAudio" Version="4.0.0-alpha5" />
-    <PackageReference Include="Costura.Fody" Version="5.7.0" />
-    <PackageReference Include="Fody" Version="6.6.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Microsoft.NETCore.Platforms" Version="6.0.0" />
     <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" />
