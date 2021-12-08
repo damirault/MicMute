@@ -17,6 +17,7 @@ namespace MicMute
         static void Main()
         {
             Application.EnableVisualStyles();
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.SetCompatibleTextRenderingDefault(false);
             mf = new MainForm();
             Application.Run(mf);
