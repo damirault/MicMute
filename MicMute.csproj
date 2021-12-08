@@ -10,9 +10,6 @@
     <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Shortcut">
-      <HintPath>libs\Shortcut\Shortcut.dll</HintPath>
-    </Reference>
     <Reference Include="System.Windows" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +34,7 @@
     <PackageReference Include="Microsoft.NETCore.Platforms" Version="6.0.0" />
     <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" />
     <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="Shortcut" Version="2.0.0-beta" />
     <PackageReference Include="System.AppContext" Version="4.3.0" />
     <PackageReference Include="System.Console" Version="4.3.1" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
